@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+#body {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: stretch;
+}
+
+header {
+	border: solid green;
+}
+
+header ul {
+	overflow: hidden;
+}
+
+header li {
+	display: inline;
+	float: right;
+	padding: 10px;
+}
+
+#connexion {
+	color: white;
+	background-color: blue;
+}
+
+#connexion a {
+	color: white;
+}
+
+div form {
+    text-align: center;
+	margin: auto;
+}
+
+div input {
+    display: block;
+    margin: center;
+}
+
+img {
+    margin: center;
+}
+footer {
+	padding: 10px;
+	border: solid;
+	background-color: grey;
+}
+
+footer li {
+	/*background-color: blue;*/
+}
+
+footer .fleft {
+	float: left;
+}
+
+footer .fright {
+	float: right;
+}
+
+a, li {
+	text-decoration: none;
+}
